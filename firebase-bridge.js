@@ -2,7 +2,7 @@
    This lets the existing display.html and controller.html keep using io(),
    socket.on(...) and socket.emit(...) with minimal changes. */
 (function () {
-  const cfg = window.FIREBASE_CONFIG || {};
+  const firebaseConfig = {
   const placeholder = Object.values(cfg).some(v => String(v).includes('PASTE_YOUR_'));
 
   if (placeholder) {
