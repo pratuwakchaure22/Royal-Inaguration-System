@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="description" content="Royal Inauguration System - full-screen display with animated curtain, poster gallery and celebration effects.">
+<meta name="theme-color" content="#180000">
+<title>Royal Inauguration - Display</title>
+<link rel="stylesheet" href="assets/css/display.css">
+<script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-database-compat.js"></script>
+<script src="assets/js/firebase-config.js"></script>
+<script src="assets/js/firebase-bridge.js"></script>
+</head>
+
+<body>
+
+<div
+    class="stage"
+    id="stage"
+    data-state="closed"
+>
+
+    <div class="golden-aura"></div>
+
+    <div class="leaflet-container">
+
+        <img
+            class="leaflet-bg"
+            src="assets/images/posters/poster-01.jpeg"
+            alt=""
+            aria-hidden="true"
+        >
+
+        <img
+            class="leaflet-main"
+            src="assets/images/posters/poster-01.jpeg"
+            alt="Poster"
+        >
+
+        <p
+            class="participant-name"
+            id="participantName"
+        >
+            Participant 1
+        </p>
+
+    </div>
+
+    <div class="curtain-wrap left">
+        <div class="curtain"></div>
+    </div>
+
+    <div class="curtain-wrap right">
+        <div class="curtain"></div>
+    </div>
+
+    <div class="pelmet"></div>
+
+    <div class="center-seam"></div>
+
+    <div class="golden-pulse"></div>
+
+    <div class="flash"></div>
+
+    <canvas id="sparkleCanvas"></canvas>
+
+    <canvas id="celebrationCanvas"></canvas>
+
+</div>
+
+<script src="assets/js/gallery.js"></script>
+<script src="assets/js/display.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    padding: 22px;
+
+    background:
+        radial-gradient(
+            circle at top,
+            #5c0909,
+            #180000 55%,
+            #050000
+        );
+
+    color: white;
+
+    font-family:
+        Arial,
+        sans-serif;
+
+    text-align: center;
+}
+
+h1 {
+    margin: 5px 0;
+    color: #ffd700;
+}
+
+.subtitle {
+    margin-top: 5px;
+    color: #ddd;
+}
+
+.status {
+    display: inline-block;
+
+    margin: 10px 0 22px;
+
+    padding: 8px 17px;
+
+    border-radius: 30px;
+
+    background: #555;
+}
+
+.status.connected {
+    background: #16803c;
+}
+
+.panel {
+    width: 100%;
+    max-width: 520px;
+
+    margin: auto;
+
+    padding: 20px;
+
+    border:
+        1px solid
+        rgba(255, 215, 0, .35);
+
+    border-radius: 20px;
+
+    background:
+        rgba(255, 255, 255, .06);
+
+    box-shadow:
+        0 15px 50px
+        rgba(0, 0, 0, .45);
+}
+
+.section-title {
+    margin: 20px 0 12px;
+
+    color: #ffd76a;
+
+    font-size: 16px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+}
+
+.controls {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 12px;
+}
+
+button {
+    min-height: 68px;
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 14px;
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition:
+        transform .15s ease,
+        filter .15s ease;
+}
+
+button:active {
+    transform: scale(.94);
+}
+
+button:hover {
+    filter: brightness(1.1);
+}
+
+.open-btn {
+    background:
+        linear-gradient(
+            135deg,
+            #147d35,
+            #22c55e
+        );
+}
+
+.close-btn {
+    background:
+        linear-gradient(
+            135deg,
+            #991b1b,
+            #ef4444
+        );
+}
+
+.nav-btn {
+    background:
+        linear-gradient(
+            135deg,
+            #1e3a8a,
+            #3b82f6
+        );
+}
+
+.confetti-btn {
+    background:
+        linear-gradient(
+            135deg,
+            #9333ea,
+            #ec4899
+        );
+}
+
+.gold-btn {
+    background:
+        linear-gradient(
+            135deg,
+            #b77900,
+            #f4c430
+        );
+
+    color: #211400;
+}
+
+.fireworks-btn {
+    background:
+        linear-gradient(
+            135deg,
+            #312e81,
+            #7c3aed
+        );
+}
+
+.streamers-btn {
+    background:
+        linear-gradient(
+            135deg,
+            #0369a1,
+            #06b6d4
+        );
+}
+
+.image-info {
+    margin-top: 18px;
+
+    padding: 13px;
+
+    border-radius: 12px;
+
+    background:
+        rgba(255, 255, 255, .08);
+
+    color: #ffe9a8;
+}

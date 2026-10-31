@@ -1,0 +1,14 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "smartCurtain": {
+      ".read": true,
+      ".write": true,
+      "state": {
+        "curtainState": { ".validate": "newData.val() === 'open' || newData.val() === 'closed'" },
+        "currentImageIndex": { ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() < 200" }
+      }
+    }
+  }
+}

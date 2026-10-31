@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#180000">
+<title>Royal Inauguration - Controller</title>
+<link rel="stylesheet" href="assets/css/controller.css">
+<script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.5/firebase-database-compat.js"></script>
+<script src="assets/js/firebase-config.js"></script>
+<script src="assets/js/firebase-bridge.js"></script>
+</head>
+
+<body>
+
+<h1>🎭 Royal Inauguration</h1>
+
+<p class="subtitle">
+    Mobile Control Panel
+</p>
+
+<div
+    class="status"
+    id="status"
+>
+    Connecting...
+</div>
+
+<div class="panel">
+
+    <div class="section-title">
+        Curtain Controls
+    </div>
+
+    <div class="controls">
+
+        <button
+            class="open-btn"
+            onclick="openCurtain()"
+        >
+            🎭 Open Curtain
+        </button>
+
+        <button
+            class="close-btn"
+            onclick="closeCurtain()"
+        >
+            🔒 Close Curtain
+        </button>
+
+    </div>
+
+    <div class="section-title">
+        Poster Navigation
+    </div>
+
+    <div class="controls">
+
+        <button
+            class="nav-btn"
+            onclick="previousImage()"
+        >
+            ⬅ Previous
+        </button>
+
+        <button
+            class="nav-btn"
+            onclick="nextImage()"
+        >
+            Next ➡
+        </button>
+
+    </div>
+
+    <div
+        class="image-info"
+        id="imageInfo"
+    >
+        Current Poster: 1
+    </div>
+
+    <div class="section-title">
+        Celebration Effects
+    </div>
+
+    <div class="controls">
+
+        <button
+            class="confetti-btn"
+            onclick="celebrate('confetti')"
+        >
+            🎊 Party Popper
+        </button>
+
+        <button
+            class="gold-btn"
+            onclick="celebrate('gold')"
+        >
+            ✨ Gold Shower
+        </button>
+
+        <button
+            class="fireworks-btn"
+            onclick="celebrate('fireworks')"
+        >
+            🎆 Fireworks
+        </button>
+
+        <button
+            class="streamers-btn"
+            onclick="celebrate('streamers')"
+        >
+            🎉 Streamers
+        </button>
+
+    </div>
+
+</div>
+
+<script src="assets/js/gallery.js"></script>
+<script src="assets/js/controller.js"></script>
+
+</body>
+</html>

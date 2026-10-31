@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Royal Inauguration System banner">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="0%" r="90%">
+      <stop offset="0" stop-color="#6b0f0f"/><stop offset=".55" stop-color="#1c0000"/><stop offset="1" stop-color="#050000"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff0a8"/><stop offset=".5" stop-color="#f4c430"/><stop offset="1" stop-color="#b77900"/>
+    </linearGradient>
+    <linearGradient id="curtain" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4a0606"/><stop offset=".25" stop-color="#9b1c1c"/><stop offset=".5" stop-color="#5c0909"/>
+      <stop offset=".75" stop-color="#9b1c1c"/><stop offset="1" stop-color="#4a0606"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <g opacity=".95">
+    <path d="M0 0h230c-40 90-30 200 10 360H0z" fill="url(#curtain)"/>
+    <path d="M1200 0H970c40 90 30 200-10 360h240z" fill="url(#curtain)"/>
+    <rect x="0" y="0" width="1200" height="34" fill="url(#gold)"/>
+    <rect x="0" y="34" width="1200" height="6" fill="#7a5200" opacity=".6"/>
+  </g>
+  <g fill="#ffd54f">
+    <path d="M300 90l5 12 12 5-12 5-5 12-5-12-12-5 12-5z"/>
+    <path d="M900 260l4 9 9 4-9 4-4 9-4-9-9-4 9-4z"/>
+    <path d="M840 100l3 7 7 3-7 3-3 7-3-7-7-3 7-3z"/>
+    <path d="M360 270l3 7 7 3-7 3-3 7-3-7-7-3 7-3z"/>
+  </g>
+  <text x="600" y="168" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" letter-spacing="14" fill="#f4c430" opacity=".9">THE</text>
+  <text x="600" y="232" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="68" font-weight="700" fill="url(#gold)">Royal Inauguration</text>
+  <text x="600" y="282" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#f1dede" letter-spacing="3">REAL-TIME CURTAIN · POSTER GALLERY · CELEBRATIONS</text>
+</svg>

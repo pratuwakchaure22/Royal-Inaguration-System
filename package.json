@@ -1,0 +1,13 @@
+{
+  "name": "royal-inauguration-system",
+  "version": "1.0.0",
+  "description": "Real-time royal curtain inauguration display with a mobile controller, powered by Firebase Realtime Database.",
+  "private": true,
+  "license": "MIT",
+  "keywords": ["firebase", "realtime", "curtain", "inauguration", "presentation", "github-pages", "javascript"],
+  "scripts": {
+    "start": "npx --yes serve src -l 8000",
+    "validate": "node scripts/validate.js"
+  },
+  "engines": { "node": ">=18" }
+}

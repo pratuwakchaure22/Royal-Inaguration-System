@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="960" height="560" role="img" aria-label="Display screen preview">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="30%" r="80%"><stop offset="0" stop-color="#4a0a0a"/><stop offset="1" stop-color="#0a0000"/></radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff0a8"/><stop offset=".5" stop-color="#f4c430"/><stop offset="1" stop-color="#b77900"/></linearGradient>
+    <linearGradient id="c" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4a0606"/><stop offset=".3" stop-color="#a11f1f"/><stop offset=".6" stop-color="#5c0909"/><stop offset="1" stop-color="#8f1818"/></linearGradient>
+    <linearGradient id="poster" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1e3a8a"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+  </defs>
+  <rect x="0" y="0" width="960" height="560" rx="18" fill="#111"/>
+  <rect x="10" y="10" width="940" height="540" rx="12" fill="url(#bg)"/>
+  <!-- poster -->
+  <rect x="300" y="70" width="360" height="440" rx="6" fill="url(#poster)" stroke="#f4c430" stroke-width="3"/>
+  <text x="480" y="170" text-anchor="middle" font-family="Georgia,serif" font-size="30" font-weight="700" fill="#fff">POSTER</text>
+  <text x="480" y="210" text-anchor="middle" font-family="Georgia,serif" font-size="20" fill="#ffe9a8">Project Showcase</text>
+  <rect x="340" y="250" width="280" height="150" rx="8" fill="#ffffff22"/>
+  <text x="480" y="480" text-anchor="middle" font-family="Georgia,serif" font-size="26" font-weight="700" fill="url(#gold)">Participant Name</text>
+  <!-- curtains half open -->
+  <path d="M10 10h250c-30 120-25 300 10 540H10z" fill="url(#c)"/>
+  <path d="M950 10H700c30 120 25 300-10 540h260z" fill="url(#c)"/>
+  <rect x="10" y="10" width="940" height="44" rx="10" fill="url(#gold)"/>
+  <g fill="#ffd54f"><path d="M150 360l4 10 10 4-10 4-4 10-4-10-10-4 10-4z"/><path d="M820 200l4 10 10 4-10 4-4 10-4-10-10-4 10-4z"/><path d="M270 120l3 7 7 3-7 3-3 7-3-7-7-3 7-3z"/></g>
+  <text x="480" y="38" text-anchor="middle" font-family="Georgia,serif" font-size="18" font-weight="700" fill="#5a3b00" letter-spacing="6">ROYAL INAUGURATION</text>
+</svg>

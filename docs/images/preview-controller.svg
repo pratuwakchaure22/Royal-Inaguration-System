@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 600" width="330" height="600" role="img" aria-label="Controller preview">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="0%" r="100%"><stop offset="0" stop-color="#5c0909"/><stop offset=".6" stop-color="#180000"/><stop offset="1" stop-color="#050000"/></radialGradient>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#147d35"/><stop offset="1" stop-color="#22c55e"/></linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#991b1b"/><stop offset="1" stop-color="#ef4444"/></linearGradient>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1e3a8a"/><stop offset="1" stop-color="#3b82f6"/></linearGradient>
+    <linearGradient id="g4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9333ea"/><stop offset="1" stop-color="#ec4899"/></linearGradient>
+    <linearGradient id="g5" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b77900"/><stop offset="1" stop-color="#f4c430"/></linearGradient>
+    <linearGradient id="g6" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#312e81"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+    <linearGradient id="g7" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0369a1"/><stop offset="1" stop-color="#06b6d4"/></linearGradient>
+  </defs>
+  <rect width="330" height="600" rx="36" fill="#0b0b0b"/>
+  <rect x="8" y="8" width="314" height="584" rx="30" fill="url(#bg)"/>
+  <g font-family="Arial,sans-serif" text-anchor="middle" fill="#fff" font-weight="700">
+    <text x="165" y="60" font-size="20" fill="#ffd700">Royal Inauguration</text>
+    <text x="165" y="80" font-size="11" fill="#ddd" font-weight="400">Mobile Control Panel</text>
+    <rect x="105" y="92" width="120" height="24" rx="12" fill="#16803c"/><text x="165" y="109" font-size="11">Connected</text>
+    <rect x="24" y="130" width="282" height="440" rx="18" fill="#ffffff10" stroke="#ffd70055"/>
+    <text x="165" y="158" font-size="10" fill="#ffd76a" letter-spacing="1.5">CURTAIN CONTROLS</text>
+    <rect x="36" y="168" width="126" height="48" rx="12" fill="url(#g1)"/><text x="99" y="197" font-size="12">Open Curtain</text>
+    <rect x="168" y="168" width="126" height="48" rx="12" fill="url(#g2)"/><text x="231" y="197" font-size="12">Close Curtain</text>
+    <text x="165" y="248" font-size="10" fill="#ffd76a" letter-spacing="1.5">POSTER NAVIGATION</text>
+    <rect x="36" y="258" width="126" height="48" rx="12" fill="url(#g3)"/><text x="99" y="287" font-size="12">Previous</text>
+    <rect x="168" y="258" width="126" height="48" rx="12" fill="url(#g3)"/><text x="231" y="287" font-size="12">Next</text>
+    <rect x="36" y="318" width="258" height="34" rx="10" fill="#ffffff14"/><text x="165" y="340" font-size="12" fill="#ffe9a8" font-weight="400">Current Poster: 3 / 22</text>
+    <text x="165" y="384" font-size="10" fill="#ffd76a" letter-spacing="1.5">CELEBRATION EFFECTS</text>
+    <rect x="36" y="394" width="126" height="52" rx="12" fill="url(#g4)"/><text x="99" y="425" font-size="12">Party Popper</text>
+    <rect x="168" y="394" width="126" height="52" rx="12" fill="url(#g5)"/><text x="231" y="425" font-size="12" fill="#211400">Gold Shower</text>
+    <rect x="36" y="456" width="126" height="52" rx="12" fill="url(#g6)"/><text x="99" y="487" font-size="12">Fireworks</text>
+    <rect x="168" y="456" width="126" height="52" rx="12" fill="url(#g7)"/><text x="231" y="487" font-size="12">Streamers</text>
+  </g>
+</svg>
